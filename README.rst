@@ -27,5 +27,8 @@ Start the development server with::
 Point your web browser to http://localhost:5000/appointments/.
 Login with authentication credentials you used when creating the user.
 
-*Flask Web Development* by Ron DuPlain with Packt, 2013:
+*Flask Web Development* by Ron DuPlain through Packt, 2013:
 http://www.packtpub.com/flask-web-development/book
+
+See the `Flask mailing list discussion for context
+<http://librelist.com/browser/flask/2013/8/28/flask-web-development-book-now-available-through-packt/>`_.
