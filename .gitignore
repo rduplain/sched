@@ -1,0 +1,17 @@
+.#*
+*~
+\#*
+/build/
+*.db
+/dist/
+.DS_Store
+*.egg
+*.egg-info
+/.emacs*
+*.lock
+*.log
+__MACOSX
+*.pyc
+README.html
+*.sqlite
+*.sw*
