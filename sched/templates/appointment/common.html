@@ -1,9 +1,9 @@
 {% macro detail(appt, link_title=false, show_edit=true, show_description=true) %}
   <div class="appointment-detail">
     {% if link_title %}
-      <h3><a href="{{ url_for('appointment_detail', appointment_id=appt.id) }}">{{ appt.title }}</a></h3>
+      <h3><a href="{{ url_for('appointment_detail', appointment_id=appt.id) }}">{{ appt.title or '(untitled)' }}</a></h3>
     {% else %}
-      <h3>{{ appt.title }}</h3>
+      <h3>{{ appt.title or '(untitled)' }}</h3>
     {% endif %}
     {% if appt.location %}<p><i class="icon-home"></i> {{ appt.location }}</p>{% endif %}
     {% if appt.allday %}
